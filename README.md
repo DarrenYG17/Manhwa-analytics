@@ -24,7 +24,7 @@ A data-driven application that collects, analyzes, and visualizes information on
 
 ## Example usage
  - **Current available features:**
- - View manhwa information and a visual summary of review keywords.
+ 	- View manhwa information and a visual summary of review keywords.
 
 **Restrictions:**
  - Top 100 manhwas currently available (planned expansion)
@@ -44,5 +44,5 @@ A data-driven application that collects, analyzes, and visualizes information on
 [Google Docs Roadmap]https://docs.google.com/document/d/1NElXESg6-qXRmosHY0_cfMqR_D41Hu-i7Xtk-90ePuA/edit?usp=sharing
 > _Note: This is an informal, evolving document for personal brainstorming and planning._
 
-##Author
+## Author
 Darren Y. G.
