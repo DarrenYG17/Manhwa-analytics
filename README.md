@@ -32,9 +32,10 @@ A data-driven application that collects, analyzes, and visualizes information on
 
 1) type manhwa name and click fetch
 <br>
-<img width="681" height="204" alt="image" src="https://github.com/user-attachments/assets/67662a3b-60f7-4d8b-9ed7-00937dad64ef" />
+<img width="681" height="204" alt="image" src="https://github.com/user-attachments/assets/67662a3b-60f7-4d8b-9ed7-00937dad64ef" />  
 
 2) select from selection box of manhwas available, then details will be displayed
+<br>
 <img width="758" height="380" alt="image" src="https://github.com/user-attachments/assets/092f1ddf-2883-4103-bb77-f641e7e340b8" />
 
 ## Roadmap
