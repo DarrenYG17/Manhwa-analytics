@@ -24,15 +24,18 @@ A data-driven application that collects, analyzes, and visualizes information on
 
 ## Example usage
  - **Current available features:**
-	View manhwa information and a visual summary of review keywords.
+ - View manhwa information and a visual summary of review keywords.
 
 **Restrictions:**
  - Top 100 manhwas currently available (planned expansion)
  - Limited amount of aliases of manhwas
+
+1) type manhwa name and click fetch
+<br>
 <img width="681" height="204" alt="image" src="https://github.com/user-attachments/assets/67662a3b-60f7-4d8b-9ed7-00937dad64ef" />
- - type manhwa name and click fetch
+
+2) select from selection box of manhwas available, then details will be displayed
 <img width="758" height="380" alt="image" src="https://github.com/user-attachments/assets/092f1ddf-2883-4103-bb77-f641e7e340b8" />
- - select from selection box for manhwas available, then details will be displayed
 
 ## Roadmap
 
