@@ -6,8 +6,6 @@ from rapidfuzz import fuzz
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-#import pandas as pd
-
 class Application:
     
     def __init__(self, fileName):
