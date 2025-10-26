@@ -30,13 +30,18 @@ A data-driven application that collects, analyzes, and visualizes information on
  - Top 100 manhwas currently available (planned expansion)
  - Limited amount of aliases of manhwas
 
-1) type manhwa name and click fetch
+1) Type manhwa name and click fetch
 <br>
 <img width="681" height="204" alt="image" src="https://github.com/user-attachments/assets/67662a3b-60f7-4d8b-9ed7-00937dad64ef" />  
-
-2) select from selection box of manhwas available, then details will be displayed
 <br>
-<img width="758" height="380" alt="image" src="https://github.com/user-attachments/assets/092f1ddf-2883-4103-bb77-f641e7e340b8" />
+2) select from selection box of manhwas available matched by recorded names of manhwas
+<br>
+<img width="765" height="493" alt="image" src="https://github.com/user-attachments/assets/d310ad47-e070-4ff5-838e-c0bf4b227ba9" />
+<br>
+2)
+<br>
+<img width="734" height="388" alt="image" src="https://github.com/user-attachments/assets/7e135097-42ef-4a2b-bc2a-b0c519d245f6" />
+<br>
 
 ## Roadmap
 
