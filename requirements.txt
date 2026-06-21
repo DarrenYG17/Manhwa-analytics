@@ -1,0 +1,12 @@
+streamlit
+rapidfuzz
+wordcloud
+matplotlib
+pandas
+emoji
+sentence-transformers
+hdbscan
+keybert
+beautifulsoup4
+cloudscraper
+torchvision

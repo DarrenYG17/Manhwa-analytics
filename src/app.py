@@ -1,5 +1,5 @@
-from WebScraper import WebScraper as WebScraperClass
-from ReviewAnalysis import ReviewAnalysis as ReviewAnalysisClass
+from scraper.WebScraper import WebScraper as WebScraperClass
+from analysis.ReviewAnalysis import ReviewAnalysis as ReviewAnalysisClass
 import json
 import streamlit as st
 from rapidfuzz import fuzz
@@ -118,4 +118,4 @@ class Application:
     
 
 if __name__ == "__main__":
-    app = Application("alias.jsonl")
+    app = Application("data/alias.jsonl")

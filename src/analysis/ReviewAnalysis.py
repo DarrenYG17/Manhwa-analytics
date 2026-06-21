@@ -12,8 +12,8 @@ import json
 
 
 class ReviewAnalysis:
-    fileToWriteTo = "reviewAnalysis.jsonl"
-    reviewFile = "manhwaReviews.jsonl"
+    fileToWriteTo = "data/reviewAnalysis.jsonl"
+    reviewFile = "data/manhwaReviews.jsonl"
     kbModel = KeyBERT("all-MiniLM-L6-v2")
     STmodel = SentenceTransformer("all-MiniLM-L6-v2")
     analysedLinkDict = {}

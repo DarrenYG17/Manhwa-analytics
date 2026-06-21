@@ -1,13 +1,15 @@
 from bs4 import BeautifulSoup
 import cloudscraper, time, random, json, threading, re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import os
+os.environ["TRANSFORMERS_NO_ADVISORY_WARNINGS"] = "1"
 
 #specific for myanimelist.net
 class WebScraper():
     
-    detailFile = "manhwaDetails.jsonl"
-    reviewFile = "manhwaReviews.jsonl"
-    aliasFile = "alias.jsonl"
+    detailFile = "data/manhwaDetails.jsonl"
+    reviewFile = "data/manhwaReviews.jsonl"
+    aliasFile = "data/alias.jsonl"
     userAgents = [
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
@@ -308,7 +310,7 @@ class WebScraper():
     def getManhwaAlias(cls):
         doneLinks = []
 
-        with open("alias.jsonl", "a", encoding="utf-8") as f:
+        with open("data/alias.jsonl", "a", encoding="utf-8") as f:
             for limit in range(0, 100, 50): #up to 6400
                 try:
                     manhwaTags = cls.getManhwaLinksForLimit(limit)
