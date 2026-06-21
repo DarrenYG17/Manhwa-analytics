@@ -1,5 +1,5 @@
-from scraper.WebScraper import WebScraper as WebScraperClass
-from analysis.ReviewAnalysis import ReviewAnalysis as ReviewAnalysisClass
+from src.scraper.WebScraper import WebScraper as WebScraperClass
+from src.analysis.ReviewAnalysis import ReviewAnalysis as ReviewAnalysisClass
 import json
 import streamlit as st
 from rapidfuzz import fuzz
