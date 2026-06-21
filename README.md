@@ -20,7 +20,7 @@ A data-driven application that collects, analyzes, and visualizes information on
 	pip install -r requirements.txt  
 
 3. run application  
-	streamlit run app.py  
+	streamlit run src/app.py  
 
 ## Example usage
  - **Current available features:**
